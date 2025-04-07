@@ -11,7 +11,7 @@ The system is built using **Prisma ORM with MongoDB** for efficient database man
 
 ## Home Buyer / Renter  
 
-**Name:** Emma Johnson  
+**Name:** Tina Johnson  
 **Age:** 28  
 **Occupation:** Marketing Manager  
 
@@ -99,7 +99,7 @@ The system is built using **Prisma ORM with MongoDB** for efficient database man
 
 ### Usage Scenarios
 
-#### Scenario 1: Emma (Home Buyer / Renter) is looking for a two-bedroom apartment in the city center under $2000/month.
+#### Scenario 1: Tina (Home Buyer / Renter) is looking for a two-bedroom apartment in the city center under $2000/month.
 - She uses the filter options to narrow her search, views properties, saves a few options, and contacts property owners for more information.
 
 #### Scenario 2: David (Property Owner / Seller) wants to list his newly available apartment for rent.
@@ -117,7 +117,13 @@ The system is built using **Prisma ORM with MongoDB** for efficient database man
 5. **User Profile Page:** Manage user details, saved posts, and messages.
 
 **Tools for UI Prototypes:**
-- **Visily ai**
+- low-fidelity prototypes.
+![alt text](assets/Homepage.png) 
+![alt text](assets/list_of_page.png) 
+![alt text](assets/post_details.png)
+![alt text](<assets/login .png>) 
+![alt text](assets/register.png)
+
 
 ---
 
