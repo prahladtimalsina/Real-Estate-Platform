@@ -12,7 +12,7 @@ This project is a real estate platform where users can browse, list, and save pr
 
 ## Technologies Used
 - **Backend:** Node.js, Express.js, Prisma ORM, MongoDB
-- **Frontend:** React.js / Next.js, Tailwind CSS
+- **Frontend:** React.js / Next.js
 - **Authentication:** JWT / OAuth
 - **Database:** MongoDB
 
