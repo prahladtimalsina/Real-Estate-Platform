@@ -1,4 +1,4 @@
- # Project Logbook - E-commerce Platform
+ # Project Logbook - Realstate  Platform
 
   | Date       | Used Hours | Subject(s)                                     | Outcome                                  |
   | :---  |     :---:      |     :---:      |---------------------|
