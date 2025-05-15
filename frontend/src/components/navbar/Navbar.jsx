@@ -2,12 +2,14 @@ import { useContext, useState } from "react";
 import "./navbar.scss";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../context/AuthContext";
+import { ThemeContext } from "../../context/ThemeContext";
 import { useNotificationStore } from "../../lib/notificationStore";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
 
   const { currentUser } = useContext(AuthContext);
+  const { darkMode, toggleTheme } = useContext(ThemeContext);
 
   const fetch = useNotificationStore((state) => state.fetch);
   const number = useNotificationStore((state) => state.number);
@@ -27,6 +29,9 @@ function Navbar() {
         <a href="/">Agents</a>
       </div>
       <div className="right">
+      <button className="themeToggle" onClick={toggleTheme}>
+          {darkMode ? "☀️ Light" : "🌙 Dark"}
+        </button>
         {currentUser ? (
           <div className="user">
             <img src={currentUser.avatar || "/noavatar.jpg"} alt="" />
